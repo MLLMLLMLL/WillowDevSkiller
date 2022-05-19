@@ -24,5 +24,10 @@ namespace WillowDevSkiller
         {
             InitializeComponent();
         }
+
+        private void btnDevSkiller_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Did stuff.");
+        }
     }
 }

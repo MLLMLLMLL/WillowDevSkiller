@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel>
+            <Label Content="Dev Skiller Stuff" HorizontalAlignment="Left" Margin="15,15,0,0"/>
+            <Button x:Name="btnDevSkiller" Content="Do Stuff" Width="50" Height="30" HorizontalAlignment="Left" Margin="15,0,15,0" Click="btnDevSkiller_Click"/>
+        </StackPanel>
+
     </Grid>
 </Window>
